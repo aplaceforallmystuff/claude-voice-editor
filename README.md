@@ -136,10 +136,6 @@ Related skills:
 - **voice-analyzer** - Create the VOICE.md profile this skill uses
 - **slop-detector** - Identify AI patterns before/after editing
 
-## Contributing
-
-Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
 ## License
 
 MIT License - see [LICENSE](LICENSE)
