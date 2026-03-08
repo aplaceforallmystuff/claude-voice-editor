@@ -39,7 +39,13 @@ Even with a perfect style guide, expect to edit 30-40% of AI output. This isn't 
 
 ## Installation
 
-### Option 1: Copy to your Claude Code skills directory
+### Option 1: Skills CLI
+
+```bash
+npx skills add aplaceforallmystuff/claude-voice-editor
+```
+
+### Option 2: Copy to your Claude Code skills directory
 
 ```bash
 # Clone the repository
@@ -49,13 +55,13 @@ git clone https://github.com/aplaceforallmystuff/claude-voice-editor.git
 cp -r claude-voice-editor/skills/voice-editor ~/.claude/skills/
 ```
 
-### Option 2: Clone directly to skills directory
+### Option 3: Clone directly to skills directory
 
 ```bash
 git clone https://github.com/aplaceforallmystuff/claude-voice-editor.git ~/.claude/skills/voice-editor
 ```
 
-### Option 3: Manual installation
+### Option 4: Manual installation
 
 1. Create the directory: `mkdir -p ~/.claude/skills/voice-editor`
 2. Download [SKILL.md](skills/voice-editor/SKILL.md) to that directory
@@ -132,9 +138,11 @@ This skill works best as part of a workflow:
 [Draft] → slop-detector → voice-editor → slop-detector → [Final]
 ```
 
-Related skills:
-- **voice-analyzer** - Create the VOICE.md profile this skill uses
-- **slop-detector** - Identify AI patterns before/after editing
+Part of the [aplaceforallmystuff](https://skills.sh/aplaceforallmystuff) skills collection:
+
+- **[voice-analyzer](https://github.com/aplaceforallmystuff/claude-voice-analyzer)** — Create the VOICE.md profile this skill uses
+- **[the-antislop](https://github.com/aplaceforallmystuff/the-antislop)** — Detect and fix AI writing patterns before/after editing
+- **[slop-detector](https://github.com/aplaceforallmystuff/claude-slop-detector)** — Lightweight AI pattern detection
 
 ## License
 
