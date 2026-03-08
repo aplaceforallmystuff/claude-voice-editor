@@ -2,12 +2,13 @@
 name: voice-editor
 description: Edit AI-generated or draft content to match a voice profile. Use when transforming generic AI output into authentic voice-matched content, or when editing drafts to sound more like you.
 use_when: User wants to edit AI output to match their voice, transform generic content into authentic writing, apply voice profile to a draft, or make content sound more like them.
+user-invocable: true
 ---
 
 <objective>
 Transform generic or AI-generated content into voice-matched writing using a VOICE.md profile.
 
-Voice doesn't live in first drafts - it lives in editing choices. This skill guides the 6-pass editing process that turns AI's generic output into something distinctively yours.
+Voice doesn't live in first drafts -- it lives in editing choices. This skill guides the 6-pass editing process that turns AI's generic output into something distinctively yours.
 </objective>
 
 <quick_start>
@@ -26,7 +27,7 @@ The skill will:
 <the_editing_reality>
 **The 30-40% Rule:**
 
-Even with a perfect style guide, expect to edit 30-40% of AI output to make it distinctively yours. This isn't a problem—it's the feature.
+Even with a perfect style guide, expect to edit 30-40% of AI output to make it distinctively yours. This isn't a problem -- it's the feature.
 
 30-40% editing effort is dramatically less than 100% writing-from-scratch effort, while producing work that sounds more like you than unguided AI ever could.
 
@@ -103,7 +104,7 @@ Even with a perfect style guide, expect to edit 30-40% of AI output to make it d
 - Vary sentence lengths if too uniform
 - Rebalance sections if all equal weight
 - **Combine staccato fragments** into flowing prose with commas, em-dashes, or conjunctions
-- **Rewrite comparators directly** — just say what something IS, don't waste words on what it isn't
+- **Rewrite comparators directly** -- just say what something IS, don't waste words on what it isn't
 </pass>
 
 <pass number="4" name="Specificity Injection">
@@ -184,14 +185,14 @@ Even with a perfect style guide, expect to edit 30-40% of AI output to make it d
 - Flattery sandwiches ("While X has merit, Y offers...")
 
 **Examples:**
-- ❌ "This groundbreaking approach revolutionizes..."
-- ✅ "This cuts processing time from 4 hours to 15 minutes"
+- "This groundbreaking approach revolutionizes..."
+- "This cuts processing time from 4 hours to 15 minutes"
 
-- ❌ "It's worth noting that in many cases..."
-- ✅ [Just make the point directly]
+- "It's worth noting that in many cases..."
+- [Just make the point directly]
 
-- ❌ "Unlock your potential with powerful insights"
-- ✅ "Stop wasting time on tasks AI handles in seconds"
+- "Unlock your potential with powerful insights"
+- "Stop wasting time on tasks AI handles in seconds"
 </what_to_cut>
 
 <what_to_add>
@@ -284,7 +285,7 @@ Even with a perfect style guide, expect to edit 30-40% of AI output to make it d
 3. Incorporate any specific facts/examples from original
 4. Run standard editing passes on new draft
 
-**This is not editing—it's salvage.**
+**This is not editing -- it's salvage.**
 </mode>
 </editing_modes>
 
@@ -392,7 +393,7 @@ Editing is complete when:
 </success_criteria>
 
 <core_principle>
-The style guide gives AI direction—it helps produce output closer to your voice than generic defaults. Your editing gives the work your actual voice—the quirks, opinions, personality, and rough edges that make it distinctively yours.
+The style guide gives AI direction -- it helps produce output closer to your voice than generic defaults. Your editing gives the work your actual voice -- the quirks, opinions, personality, and rough edges that make it distinctively yours.
 
 This is why "zero effort" AI fails. The promise of finished content without touching it misunderstands what makes writing valuable. Effort isn't the enemy. Wasted effort is.
 
